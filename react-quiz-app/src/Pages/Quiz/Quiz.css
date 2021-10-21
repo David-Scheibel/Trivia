@@ -1,0 +1,36 @@
+p { 
+    color:purple;
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .splash{
+    color:rgb(255, 115, 0);
+    font-weight: 300;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .card-title{
+    color:rgba(255, 0, 76, 0.897);
+    font-weight: 700;
+    justify-content: center;
+    font-size:xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .card-text{
+    justify-content:center ;
+    font-variant: inherit;
+    font-size: 25px;
+    color: purple;
+  }
+  .card-container {
+    align-content: center; 
+  }
+  .button p-1 m-1{
+  color: rgba(255, 0, 76, 0.897);
+  }
+
+  .QuizCard p-5 m-5{
+    justify-content: center;
+  }
+  

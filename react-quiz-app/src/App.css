@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,200;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+.App {
+  background-image: url(https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg);
+  /* background-image: url(https://i.imgur.com/pdZnNyt.jpg); */
+  min-height: 98.5vh;
+}
+a {
+   text-decoration:inherit;
+   color: inherit;
+   border: 8px solid #39445a;
+   margin: 5px;
+   padding: 5px;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 6vw;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divider{
+  margin: 10px;
+  width: 100%;
+  background-color: lightblue;
+}
+.footer{
+  text-align: center;
+  margin-bottom: 10;
+}
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+.settings{
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.banner {
+  width: 50%;
+  align-self: center;
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner {
+    width: 85%;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .settings {
+    width: 100%;
+  }
+}
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  flex: 0.8;
+  justify-content: space-evenly;
+}
